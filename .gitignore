@@ -1,3 +1,16 @@
+# Custom additions by agelanyi
+# Ignore all hidden files, like my mapbox toke, except .gitignore
+.*
+!.gitignore
+# Ignore the following folders in the data folder
+data/NETWORK_OPERATOR/
+data/OSM-belgium-230801-free-shp/
+data/OSM-belgium-230801-free-shp.feather
+data/OSM/
+data/private/
+
+# Default .gitignore by GitHub
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
